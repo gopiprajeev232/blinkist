@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="D:\ZeMoSo Internship\React\Blinkist\storybook-react\src\components\molecules\Dropdown\index.test.tsx">
-    <testCase name="Dropdown test Explore dropdown test" duration="47"/>
-    <testCase name="Dropdown test Account dropdown test" duration="5"/>
-  </file>
-  <file path="D:\ZeMoSo Internship\React\Blinkist\storybook-react\src\components\molecules\SearchBar\index.test.tsx">
-    <testCase name="Search bar test Search bar" duration="45"/>
-  </file>
-  <file path="D:\ZeMoSo Internship\React\Blinkist\storybook-react\src\components\atoms\Button\Button.test.tsx">
-    <testCase name="Button Test Button with start icon and text" duration="115"/>
-    <testCase name="Button Test Button with end icon and text" duration="25"/>
-    <testCase name="Button Test Button with Text" duration="16"/>
-  </file>
   <file path="D:\ZeMoSo Internship\React\Blinkist\storybook-react\src\components\molecules\FooterNav\index.test.tsx">
-    <testCase name="Footer Nav Test Editorial test" duration="46"/>
+    <testCase name="Footer Nav Test Editorial test" duration="47"/>
     <testCase name="Footer Nav Test Useful links test" duration="8"/>
     <testCase name="Footer Nav Test Company test" duration="7"/>
   </file>
+  <file path="D:\ZeMoSo Internship\React\Blinkist\storybook-react\src\components\atoms\Button\Button.test.tsx">
+    <testCase name="Button Test Button with start icon and text" duration="109"/>
+    <testCase name="Button Test Button with end icon and text" duration="30"/>
+    <testCase name="Button Test Button with Text" duration="17"/>
+  </file>
+  <file path="D:\ZeMoSo Internship\React\Blinkist\storybook-react\src\components\molecules\Dropdown\index.test.tsx">
+    <testCase name="Dropdown test Explore dropdown test" duration="44"/>
+    <testCase name="Dropdown test Account dropdown test" duration="4"/>
+  </file>
   <file path="D:\ZeMoSo Internship\React\Blinkist\storybook-react\src\components\molecules\IconAndText\index.test.tsx">
-    <testCase name="Icon And Text test User test" duration="58"/>
+    <testCase name="Icon And Text test User test" duration="64"/>
+  </file>
+  <file path="D:\ZeMoSo Internship\React\Blinkist\storybook-react\src\components\molecules\SearchBar\index.test.tsx">
+    <testCase name="Search bar test Search bar" duration="48"/>
   </file>
   <file path="D:\ZeMoSo Internship\React\Blinkist\storybook-react\src\components\atoms\Icon\index.test.tsx">
-    <testCase name="Display logo Should display logo" duration="22"/>
-  </file>
-  <file path="D:\ZeMoSo Internship\React\Blinkist\storybook-react\src\components\atoms\IconButton\index.test.tsx">
-    <testCase name="Icon Button Test Checking for search icon" duration="53"/>
-    <testCase name="Icon Button Test Checking for dropdown icon" duration="18"/>
+    <testCase name="Display logo Should display logo" duration="31"/>
   </file>
   <file path="D:\ZeMoSo Internship\React\Blinkist\storybook-react\src\components\molecules\Tabs\index.test.tsx">
-    <testCase name="Tabs Test" duration="70"/>
+    <testCase name="Tabs Test" duration="76"/>
+  </file>
+  <file path="D:\ZeMoSo Internship\React\Blinkist\storybook-react\src\components\atoms\IconButton\index.test.tsx">
+    <testCase name="Icon Button Test Checking for search icon" duration="45"/>
+    <testCase name="Icon Button Test Checking for dropdown icon" duration="12"/>
   </file>
   <file path="D:\ZeMoSo Internship\React\Blinkist\storybook-react\src\components\molecules\Banner\index.test.tsx">
     <testCase name="Banner test Banner checking" duration="13"/>
