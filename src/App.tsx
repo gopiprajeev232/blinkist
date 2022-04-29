@@ -1,24 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import MyLibrary from "./pages/MyLibrary";
+import EntrepreneurshipPage from './pages/Entrepreneurship'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import BookDetailsPage from "./pages/BookDetails";
+import { makeStyles } from "@mui/styles";
+
+let useStyles = makeStyles({
+  main: {
+
+  }
+})
 
 function App() {
+  let styles = useStyles()
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.main}>
+      <Router>
+        <Routes>
+          <Route path="/" element={<MyLibrary />} />
+          <Route path="/entrepreneurship" element={<EntrepreneurshipPage />} />
+          <Route path="/bookdetails" element={<BookDetailsPage /> } />
+        </Routes>
+      </Router>
     </div>
   );
 }
