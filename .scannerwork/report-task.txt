@@ -1,7 +1,0 @@
-organization=gopiprajeev232
-projectKey=blinkistapplication
-serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.28653
-dashboardUrl=https://sonarcloud.io/dashboard?id=blinkistapplication
-ceTaskId=AYB1Qbu2_FaMVX3lNlWC
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYB1Qbu2_FaMVX3lNlWC
