@@ -1,4 +1,4 @@
-import { Container, createTheme, styled, Typography } from "@mui/material";
+import { Container, styled, Typography } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import banner from "../../../images/banner.svg";
 import theme from "../../themes/theme";

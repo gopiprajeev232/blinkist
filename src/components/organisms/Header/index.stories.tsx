@@ -7,9 +7,6 @@ export default {
     component: HeaderComponent
 }
 
-const Template: ComponentStory<typeof HeaderComponent> = args => <MemoryRouter><HeaderComponent /></MemoryRouter>
+const Template: ComponentStory<typeof HeaderComponent> = () => <MemoryRouter><HeaderComponent /></MemoryRouter>
 
 export const TestComp = Template.bind({})
-TestComp.args = {
-    
-}

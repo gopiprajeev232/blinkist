@@ -1,4 +1,4 @@
-import { ComponentStory, Story } from "@storybook/react";
+import { ComponentStory } from "@storybook/react";
 import { AboutBook } from ".";
 
 export default {

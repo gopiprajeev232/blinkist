@@ -1,4 +1,4 @@
-import { makeStyles, styled, StylesProvider } from "@mui/styles";
+import { styled } from "@mui/styles";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "../../themes/theme";
 import { Constants } from "../../../data/Constants";
@@ -104,7 +104,7 @@ export const BookDescription = () => {
     navigate('/')
   }
 
-  let handleRead = async (num: number) => {
+  let handleRead = async () => {
     navigate('/')
   }
 
@@ -145,7 +145,7 @@ export const BookDescription = () => {
                 textTransform: "none",
                 border: "1px solid #042330",
               }}
-              onClick={() => handleRead(10)}
+              onClick={() => handleRead()}
             >
               Read now
             </ButtonComponent>

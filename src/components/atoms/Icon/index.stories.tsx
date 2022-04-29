@@ -1,8 +1,6 @@
 import React from "react";
 import {Icons, IconProps} from '.'
-import {Story, Meta} from '@storybook/react'
-import ArrowDropDown from '../../../images/dropdownarrow.svg'
-import SearchIcon from '../../../images/searchicon.svg'
+import {Story} from '@storybook/react'
 import BlinkistLogo from '../../../images/blinkistlogo.svg'
 
 export default {

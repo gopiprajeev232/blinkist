@@ -1,9 +1,9 @@
 import { Box, Tab } from "@mui/material";
-import { TabContext, TabList, TabPanel } from "@mui/lab";
+import { TabContext, TabList } from "@mui/lab";
 import { useState } from "react";
 import { makeStyles } from "@mui/styles";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   selectedTab: {
     color: "#22C870 !important"
   },
@@ -13,6 +13,7 @@ export const TabsComponent = () => {
   const [value, setValue] = useState("1");
   const [color, setColor] = useState("#22C870");
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+    console.log(event)
     setValue(newValue);
     setColor(color);
   };

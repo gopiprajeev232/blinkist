@@ -1,4 +1,4 @@
-import { Box, Container, styled } from "@mui/material";
+import { Box } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { ThemeProvider } from "@mui/material/styles";
 import SearchIcon from "../../../images/searchicon.svg";

@@ -46,17 +46,17 @@ const Categories = (props: CardProps) => {
 
   let styles = useStyles()
 
-  let filterBooks = (status: string) => {
-    if (status === "featured") {
+  let filterBooks = (statusOfBlink: string) => {
+    if (statusOfBlink === "featured") {
       setShowData(showData.filter((item) => item.status.isFeatured));
       setTitle("Featured")
 
-    } else if(status === "trending") {
+    } else if(statusOfBlink === "trending") {
         setShowData(showData.filter((item) => item.status.isTrending))
         setTitle("Trending")
     }
 
-    else if(status === "justAdded") {
+    else if(statusOfBlink === "justAdded") {
       setShowData(showData.filter((item) => item.status.justAdded));
       setTitle("Just Added")
     }

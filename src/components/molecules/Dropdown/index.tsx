@@ -3,7 +3,6 @@ import DropDownArrow from "../../../images/dropdownarrow.svg";
 import Account from "../../../images/account.svg";
 import { Icons } from "../../atoms/Icon";
 import { makeStyles } from "@mui/styles";
-import { useState } from "react";
 
 const useStyles = makeStyles({
   main: {
