@@ -22,7 +22,7 @@
       "numberOfReads": "",
       "image": "../images/employee.svg",
       "status": {
-        "isFinished": true,
+        "isFinished": false,
         "isTrending": true,
         "justAdded": false,
         "isFeatured": false
@@ -36,7 +36,7 @@
       "numberOfReads": "1.9k reads",
       "image": "../images/doesntHurtToAsk.svg",
       "status": {
-        "isFinished": true,
+        "isFinished": false,
         "isTrending": false,
         "justAdded": false,
         "isFeatured": true
@@ -64,7 +64,7 @@
       "numberOfReads": "",
       "image": "../images/livesOfStoics.svg",
       "status": {
-        "isFinished": false,
+        "isFinished": true,
         "isTrending": true,
         "justAdded": false,
         "isFeatured": false
@@ -79,7 +79,7 @@
       "image": "../images/lovingYourBusiness.svg",
       "status": {
         "isFinished": false,
-        "isTrending": false,
+        "isTrending": true,
         "justAdded": false,
         "isFeatured": false
       }

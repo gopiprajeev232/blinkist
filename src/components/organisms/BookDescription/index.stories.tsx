@@ -7,7 +7,7 @@ export default {
     component: BookDescription
 }
 
-let Template: ComponentStory<typeof BookDescription> = () => <MemoryRouter><BookDescription /></MemoryRouter>
+let Template: ComponentStory<typeof BookDescription> = () => <BookDescription />
 
 export const BookDescriptionTest = Template.bind({})
 BookDescriptionTest.args = {
