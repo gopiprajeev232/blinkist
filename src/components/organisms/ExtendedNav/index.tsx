@@ -16,7 +16,7 @@ let useStyles = makeStyles({
         minWidth: "100%",
         height: 398,
         zIndex: 5,
-        position: 'relative',
+        position: 'absolute',
         backgroundColor: "#F1F6F4"
     },
     firstBox: {
@@ -82,10 +82,10 @@ export const ExtendedNav = () => {
             <Typography>See popular titles</Typography>
         </Box>
         <Box className={styles.secondBox}>
-          {ExtendedNavData.map((data, index) => {
+          {ExtendedNavData.map((data, key) => {
             return (
               <div className={styles.navItem}>
-                <IconAndText iconSource={data.icon} key={index} title={data.title} variant="body2" onClick={showEntrepreneursPage} />
+                <IconAndText iconSource={data.icon} key={key} title={data.title} variant="body2" onClick={showEntrepreneursPage} />
               </div>
             );
           })}

@@ -39,7 +39,7 @@ export const Dropdown = (props: DropdownProps) => {
   return (
     <>
       <Box className={`${styles.main} ${className}`}>
-        {title == 'Account' ? (
+        {title === 'Account' ? (
           <Icons source={Account} style={style} />
         ) : (
             <Typography variant='body1' className={styles.typography}>
@@ -47,7 +47,7 @@ export const Dropdown = (props: DropdownProps) => {
             </Typography>
         )}
 
-        <Icons onClick={onClick} style={style} className={styles.dropdownarrow} source={DropDownArrow} />
+        <Icons onClick={onClick} style={style} className={styles.dropdownarrow} data-test-id="exploretest" source={DropDownArrow} />
       </Box>
     </>
   );

@@ -1,0 +1,7 @@
+organization=gopiprajeev232
+projectKey=blinkistapp
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.28653
+dashboardUrl=https://sonarcloud.io/dashboard?id=blinkistapp
+ceTaskId=AYCDLO7AMcMYNwn8htMG
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYCDLO7AMcMYNwn8htMG
